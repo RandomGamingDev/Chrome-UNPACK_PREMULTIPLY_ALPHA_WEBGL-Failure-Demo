@@ -5,3 +5,6 @@ You can look at a demo of this issue here: https://randomgamingdev.github.io/Chr
 The result of `gl.getError()` is printed in the console. In firefox there is no error, while chromium based browsers and safari throw an error, that is inaccurate and vague.
 
 The error thrown on Chromium based browsers & Safari is 1282/(INVALID_OPERATION: texImage2D: Invalid params.format/params.type combination).
+
+This example was made for:
+- https://bugs.chromium.org/p/chromium/issues/detail?id=1478432
